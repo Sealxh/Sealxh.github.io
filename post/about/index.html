@@ -1,0 +1,199 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>关于 | Gridea</title>
+<link rel="shortcut icon" href="https://Sealxh.github.io/favicon.ico?v=1664940523523">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Sealxh.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="关于 | Gridea - Atom Feed" href="https://Sealxh.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="关于本博客
+实在是不想用博客园了（用的主题经常出bug）其实也是因为我懒
+话说都快退役了才弄是不是有点晚。
+如果梯*没有什么意外的话，以后都会在这里发blog。
+关于我
+一个高二的大菜鸡。
+来自SD，上学在DY，家在ZB。
+喜欢玩游戏，因为..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Sealxh.github.io">
+  <img class="avatar" src="https://Sealxh.github.io/images/avatar.png?v=1664940523523" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    多看前路风景
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              关于
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-10-05
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1 id="关于本博客">关于本博客</h1>
+<p>实在是不想用博客园了（用的主题经常出bug）<s>其实也是因为我懒</s><br>
+话说都快退役了才弄是不是有点晚。<br>
+如果梯*没有什么意外的话，以后都会在这里发blog。</p>
+<h1 id="关于我">关于我</h1>
+<p>一个高二的大菜鸡。<br>
+来自SD，上学在DY，家在ZB。<br>
+喜欢玩游戏，因为<s>资金</s>设备原因手游玩的居多。<br>
+欢迎来找我玩！。</p>
+<h1 id="联系">联系</h1>
+<p>QQ：2693104618。<br>
+<a href="https://www.luogu.com.cn/user/539747">洛谷</a>。</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%8D%9A%E5%AE%A2">关于本博客</a></li>
+<li><a href="#%E5%85%B3%E4%BA%8E%E6%88%91">关于我</a></li>
+<li><a href="#%E8%81%94%E7%B3%BB">联系</a></li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '4847576c242855c026d2',
+    clientSecret: '17b9ab5efbf11c6ee3e730f3e3b4f4e5415eb231',
+    repo: 'Sealxh.github.io',
+    owner: 'Sealxh',
+    admin: ['Sealxh'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
+        <div class="site-footer">
+  少谈一时输赢
+  <a class="rss" href="https://Sealxh.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

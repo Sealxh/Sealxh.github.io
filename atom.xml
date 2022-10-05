@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Sealxh.github.io</id>
+    <title>Gridea</title>
+    <updated>2022-10-05T03:29:12.386Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Sealxh.github.io"/>
+    <link rel="self" href="https://Sealxh.github.io/atom.xml"/>
+    <subtitle>多看前路风景</subtitle>
+    <logo>https://Sealxh.github.io/images/avatar.png</logo>
+    <icon>https://Sealxh.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[友链]]></title>
+        <id>https://Sealxh.github.io/post/you-lian/</id>
+        <link href="https://Sealxh.github.io/post/you-lian/">
+        </link>
+        <updated>2022-10-05T03:27:06.000Z</updated>
+        <content type="html"><![CDATA[<p>持续更新...</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://Sealxh.github.io/post/about/</id>
+        <link href="https://Sealxh.github.io/post/about/">
+        </link>
+        <updated>2022-10-05T03:23:03.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="关于本博客">关于本博客</h1>
+<p>实在是不想用博客园了（用的主题经常出bug）<s>其实也是因为我懒</s><br>
+话说都快退役了才弄是不是有点晚。<br>
+如果梯*没有什么意外的话，以后都会在这里发blog。</p>
+<h1 id="关于我">关于我</h1>
+<p>一个高二的大菜鸡。<br>
+来自SD，上学在DY，家在ZB。<br>
+喜欢玩游戏，因为<s>资金</s>设备原因手游玩的居多。<br>
+欢迎来找我玩！。</p>
+<h1 id="联系">联系</h1>
+<p>QQ：2693104618。<br>
+<a href="https://www.luogu.com.cn/user/539747">洛谷</a>。</p>
+]]></content>
+    </entry>
+</feed>
